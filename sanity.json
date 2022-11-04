@@ -1,11 +1,11 @@
 {
   "root": true,
   "project": {
-    "name": "stablo-blog"
+    "name": "archivs-cms"
   },
   "api": {
     "projectId": "npnd6wa2",
-    "dataset": "stablo-blog"
+    "dataset": "archivs-cms"
   },
   "plugins": [
     "@sanity/base",
@@ -15,9 +15,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
